@@ -1,0 +1,100 @@
+/*Genral styles*/
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+    color: black;
+    font-family: serif;
+    margin: 15px;
+    font-weight: 400;
+    background-color: white;
+   
+}
+
+h1,h2,h3 {
+    text-align: left;
+}
+
+
+}
+section {
+    padding-bottom: 60px;
+}
+
+section h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+p {
+    line-height: 25px;
+    
+}
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/*General styls stop*/
+
+#menu {
+    text-align: right;
+    color:black;
+    width: 100%;
+    top:0px;
+    right: 0px;
+    position: fixed;
+}
+
+/*Nav bar style start */
+#main-nav {
+    background-color: gainsboro;
+    border: rgba(255,255,255,0);
+    margin: 0;
+    transition: all 0.3s;
+    
+}
+
+#main-nav ul li a {
+    color:black;
+    text-decoration: none;
+    font-weight: 300;
+    transition: all 0.3s;
+}
+
+#main-nav ul li a:hover {
+    color:yellowgreen;
+}
+
+#main-nav .scroll{
+    background-color: #85919E; 
+}
+
+#main-nav .scroll ul li a{
+    color:blue;
+}
+   
+/*Nav bar style stop */
+
+/* Setion numbers start*/
+#numbers .figure img {
+    max-height: 350px;
+    border: 14px #fff solid;
+    border-radius: 15px;
+    max-width: 100%;
+    display: inline;
+}
+
+
+
